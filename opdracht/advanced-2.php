@@ -33,6 +33,13 @@
         
       
         echo "<tbody>";
+        function maakRij($A,$AV){
+            echo "<tr>";
+           
+            echo "<th>$A</th>";
+            echo "<th>$AV</th>";
+            echo "</tr>";
+        }
         
         foreach($gegevens as $A => $AV)
         maakRij($A,$AV);
